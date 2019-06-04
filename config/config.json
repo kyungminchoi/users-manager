@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "awsmsa",
+    "password": "skcc1234",
+    "database": "usersdb",
+    "host": "awsmsa.ca28h3ng55rn.us-east-2.rds.amazonaws.com",
+    "dialect": "mariadb"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
